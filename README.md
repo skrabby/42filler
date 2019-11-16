@@ -19,7 +19,7 @@ Algorithm:
 The solution that I have come up with was to create a heat map (priority map) every time a new enemys location is given. It is quite simple: the closer a cell is to an enemy's cell - the higher priority it has for us to insert our piece. This is done with the purpose of surrounding him, so he wouldn't be able to put any of his pieces anymore.
 
 Bonus:
-As for the bonus, it was proposed to create a visualizer for this game.
+As for the bonus part, it was proposed to create a visualizer for this game.
 
 Several examples and previews are attached below.
 
