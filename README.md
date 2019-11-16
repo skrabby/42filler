@@ -1,8 +1,7 @@
 # 42filler
 Filler Project
 
-Some description
 <p align="center">
-  <img src="https://i.imgur.com/3Ws0WzB.png" width="350" title="hover text">
-  <img src="https://i.imgur.com/3Ws0WzB.png" width="350" alt="accessibility text">
+Fillit Map01 Preview
+  <img src="https://i.imgur.com/3Ws0WzB.png" width="700" title="Map01 Preview">
 </p>
