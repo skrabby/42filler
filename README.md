@@ -31,7 +31,12 @@ Map02 Preview
 
 <img src="https://i.imgur.com/NE6pSrp.png" width="700" title="Map01 Preview">
 
-Heat Map Example
+#### Heat Map Example
+
+Map
 
 <img src="https://i.imgur.com/4ZRraLA.png" width="350" title="Map01 Preview">
+
+Heat Map
+
 <img src="https://i.imgur.com/kfkB0eS.png" width="700" title="Map01 Preview">
