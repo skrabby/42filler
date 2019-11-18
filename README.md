@@ -2,7 +2,7 @@
 #### Disclaimer:
 
 For this specific project only those functions were allowed:
-read, write, malloc, free, perror. Memory leaks are prohibited, makefile has to be smooth.
+read, write, malloc, free, perror. Memory leaks, "for" loops, > 25 line functions as well as complicated ternary operations (ternary inside ternary) are prohibited, makefile has to be linked and smooth.
 
 Task (CTRL+C CTRL+V):
 Create your player program to compete against other students on the
@@ -29,12 +29,12 @@ As for the bonus part, it was proposed to create a visualizer for this game.
 
 Without visualizer:
 ```shell
-make && ./resources/filler_vm -p1 skrabby.filler -p2 resources/players/abanlin.filler -v -f resources/maps/map01
+make && cd resources && ./filler_vm -p1 ../skrabby.filler -p2 players/abanlin.filler -v -f maps/map01
 ```
 
 With visualizer:
 ```shell
-make visual && ./resources/filler_vm -p1 skrabby.filler -p2 resources/players/abanlin.filler -v -f resources/maps/map01 | visualizer/visualizer
+make visual && cd resources && ./filler_vm -p1 ../skrabby.filler -p2 players/abanlin.filler -v -f maps/map01 | ../visualizer/visualizer
 ```
 
 Several examples and previews are attached below.
@@ -54,6 +54,7 @@ Map
 <img src="https://i.imgur.com/4ZRraLA.png" width="350" title="Map Example">
 
 Heat Map (corresponding to the map above)
+
 <img src="https://i.imgur.com/kfkB0eS.png" width="700" title="Heat Map Example">
 
 #### Afterword:
